@@ -16,8 +16,11 @@ ALTER PLUGGABLE DATABASE plsql_class2024_db OPEN;
 
 ALTER PLUGGABLE DATABASE plsql_class2024_db SAVE STATE;
 //The save state command ensures that the PDB will automatically open whenever the CDB is restarted.
+<img width="1026" alt="TASK 1 Queries" src="https://github.com/user-attachments/assets/fafdb401-a226-4c07-8ad4-d38745592b62">
+<img width="992" alt="TASK 1 Result" src="https://github.com/user-attachments/assets/4d175d6f-efad-4f76-8ec2-c962e55dbbdf">
 
 ## TASK 2
+
 
 CREATE PLUGGABLE DATABASE ne_to_delete_pdb
 ADMIN USER ne_admin IDENTIFIED BY delete_password
@@ -30,4 +33,14 @@ ALTER PLUGGABLE DATABASE ne_to_delete_pdb OPEN;
 ALTER PLUGGABLE DATABASE ne_to_delete_pdb CLOSE IMMEDIATE;
 DROP PLUGGABLE DATABASE ne_to_delete_pdb INCLUDING DATAFILES;
 //This the process of closing and dropping the ne_to_delete_pdb.
+<img width="1007" alt="TASK 2 Queries" src="https://github.com/user-attachments/assets/42e9ef32-c210-4008-beaf-74f674d2314e">
+<img width="997" alt="TASK 2 Result" src="https://github.com/user-attachments/assets/4414033a-c14f-4e1a-affe-97a79f703b79">
+
+# TASK 3
+
+OEM Dashboard Screen shot
+<img width="1272" alt=" OEM Dashboard" src="https://github.com/user-attachments/assets/8f15b885-b657-4323-ab64-530c2348ef53">
+
+
+
 
